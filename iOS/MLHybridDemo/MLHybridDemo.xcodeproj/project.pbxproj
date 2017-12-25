@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D75F10D1FEFB2C100C9EB01 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D75F10C1FEFB2C100C9EB01 /* ThirdViewController.swift */; };
 		AAA32E0ABD1843260458F5CE /* Pods_MLHybridDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1A6CFC099073442A78DFCF /* Pods_MLHybridDemo.framework */; };
 		B59162C01EDEBEE500D1B466 /* MLHybridContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59162671EDEBEE400D1B466 /* MLHybridContentView.swift */; };
 		B59162C11EDEBEE500D1B466 /* MLHybridTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59162681EDEBEE500D1B466 /* MLHybridTools.swift */; };
@@ -62,6 +63,7 @@
 /* Begin PBXFileReference section */
 		13C2AA93CD003B1DF41EC087 /* Pods-MLHybridDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLHybridDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLHybridDemo/Pods-MLHybridDemo.release.xcconfig"; sourceTree = "<group>"; };
 		1B1A6CFC099073442A78DFCF /* Pods_MLHybridDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLHybridDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D75F10C1FEFB2C100C9EB01 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		B59162671EDEBEE400D1B466 /* MLHybridContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLHybridContentView.swift; sourceTree = "<group>"; };
 		B59162681EDEBEE500D1B466 /* MLHybridTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLHybridTools.swift; sourceTree = "<group>"; };
 		B59162691EDEBEE500D1B466 /* MLHybridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLHybridViewController.swift; sourceTree = "<group>"; };
@@ -347,6 +349,7 @@
 				B5BDC7A91EDEB59100925B14 /* AppDelegate.swift */,
 				B5BDC7AB1EDEB59100925B14 /* FirstViewController.swift */,
 				B5BDC7AD1EDEB59100925B14 /* SecondViewController.swift */,
+				8D75F10C1FEFB2C100C9EB01 /* ThirdViewController.swift */,
 				B5BDC7AF1EDEB59100925B14 /* Main.storyboard */,
 				B5BDC7B21EDEB59100925B14 /* Assets.xcassets */,
 				B5BDC7B41EDEB59100925B14 /* LaunchScreen.storyboard */,
@@ -390,7 +393,7 @@
 				TargetAttributes = {
 					B5BDC7A51EDEB59100925B14 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 298LEY82V6;
+						DevelopmentTeam = Z53VMMQG52;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -485,6 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D75F10D1FEFB2C100C9EB01 /* ThirdViewController.swift in Sources */,
 				B59162E21EDEBEE500D1B466 /* HybridSearchBox.swift in Sources */,
 				B59163051EDEC7D700D1B466 /* WeChatManager.swift in Sources */,
 				B5BDC7AE1EDEB59100925B14 /* SecondViewController.swift in Sources */,
@@ -644,7 +648,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 298LEY82V6;
+				DEVELOPMENT_TEAM = Z53VMMQG52;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MLHybrid/ThirdParty/Alipay",
@@ -681,7 +685,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 298LEY82V6;
+				DEVELOPMENT_TEAM = Z53VMMQG52;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MLHybrid/ThirdParty/Alipay",
