@@ -96,6 +96,8 @@ extension MLHybridContentView: UIWebViewDelegate {
     }
     
     func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -> Bool {
+        let str = request.url?.absoluteString.removingPercentEncoding;
+        print("url = \(String(describing: str))")
         if request.url!.absoluteString.hasPrefix("\(MLHYBRID_SCHEME)://") {
             self.tool.analysis(urlString: request.url?.absoluteString, webView: webView)
             return false

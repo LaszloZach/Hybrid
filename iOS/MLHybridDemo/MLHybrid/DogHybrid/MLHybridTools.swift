@@ -397,10 +397,11 @@ class MLHybridTools: NSObject {
                 }
             }
         } else {
-//            if let url = args["topage"] as? String {
-//                //这里指定跳转到本地某页面   需要一个判断映射的方法
-////                MLPageUrlParseManager(currentVC: self.currentVC()).handlePageJumpWithUrl(url)
-//            }
+            if let url = args["topage"] as? String {
+                //这里指定跳转到本地某页面   需要一个判断映射的方法
+                print("跳转本地页面 url = \(url)")
+//                MLPageUrlParseManager(currentVC: self.currentVC()).handlePageJumpWithUrl(url)
+            }
         }
     }
     
