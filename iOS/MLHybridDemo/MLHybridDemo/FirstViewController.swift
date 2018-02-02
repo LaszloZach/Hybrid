@@ -16,7 +16,8 @@ class FirstViewController: UIViewController {
 //        "hybrid://forward?param=%7B%22topage%22%3A%22http%3A%2F%2Fkq.medlinker.com%2Fwebapp%2Fkq-desk%2Fadmorgs.html%22%2C%22type%22%3A%22h5%22%7D"
         
 //        let urlString = "http://yexiaochai.github.io/Hybrid/webapp/demo/index.html"
-        let urlString = "https://laszlozach.github.io/Hybrid/webapp/demo/index.html"
+//        let urlString = "https://laszlozach.github.io/Hybrid/webapp/demo/index.html"
+        let urlString = "http://192.168.100.11:8081/webapp/demo/index.html"
         
         if let vc = MLHybridViewController.load(urlString: urlString) {
             self.navigationController?.pushViewController(vc, animated: true)

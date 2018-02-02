@@ -9,17 +9,17 @@
 import UIKit
 
 class SecondViewController: UIViewController {
+    
+    
+    @IBAction func test(_ sender: Any) {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let urlString = "https://laszlozach.github.io/Hybrid/webapp/demo/index.html"
+        
+        if let vc = MLHybridViewController.load(urlString: urlString) {
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
 
 }
 
