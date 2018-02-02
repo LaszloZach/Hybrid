@@ -120,6 +120,7 @@
 		B5BDC7B51EDEB59100925B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5BDC7B71EDEB59100925B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C747E8AA7532B22ECCB18F47 /* Pods-MLHybridDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLHybridDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLHybridDemo/Pods-MLHybridDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C7B40CE02022F3A4001850C3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,6 +328,7 @@
 			isa = PBXGroup;
 			children = (
 				B59162F41EDEC05B00D1B466 /* Bridging-header.h */,
+				C7B40CE02022F3A4001850C3 /* README.md */,
 				B59162651EDEBEE400D1B466 /* MLHybrid */,
 				B5BDC7A81EDEB59100925B14 /* MLHybridDemo */,
 				B5BDC7A71EDEB59100925B14 /* Products */,
