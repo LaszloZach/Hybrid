@@ -321,7 +321,7 @@ class MLHybridTools: NSObject {
             
             button.titleLabel?.font = UIFont.systemFont(ofSize: 15)
 //            button.setTitleColor(MLTheme.color.lightBlue, for: .normal)
-            button.setTitleColor(.white, for: .normal)
+            button.setTitleColor(.black, for: .normal)
             if buttonModel.icon.characters.count > 0 {
                 button.setZYHWebImage(buttonModel.icon as NSString?, defaultImage: "", isCache: true)
             }
@@ -353,23 +353,12 @@ class MLHybridTools: NSObject {
 
     
     func back(_ args: [String: AnyObject], webView: UIWebView) {
-        self.viewControllerOf(webView).navigationController?.popViewController(animated: true)
-//        if let navi = self.viewControllerOf(webView).navigationController ?? self.currentNavi() {
-//            if let rt_navi = navi as? RTContainerNavigationController {
-//                if rt_navi.rt_navigationController.rt_viewControllers.count > 1 {
-//                    rt_navi.popViewController(animated: true)
-//                } else {
-//                    rt_navi.dismiss(animated: true, completion: nil)
-//                }
-//            } else if navi.viewControllers.count > 1 {
-//                navi.popViewController(animated: true)
-//            } else {
-//                navi.dismiss(animated: true, completion: nil)
-//            }
-//        }
-//        else {
-//            print("navi == nil")
-//        }
+        let nav = self.viewControllerOf(webView).navigationController;
+        if nav != nil {
+            nav?.popViewController(animated: true)
+        }else{
+            self.viewControllerOf(webView).dismiss(animated: true, completion: nil)
+        }
     }
     
     func forward(_ args: [String: AnyObject]) {
